@@ -1,0 +1,50 @@
+package clause
+
+import (
+	"github.com/driftdev/pgcraft"
+	"io"
+)
+
+type SelectList struct {
+	Columns []any
+	// necessary to be able to treat preloaders
+	// like any other query Mod
+	PreloadColumns []any
+}
+
+func (s *SelectList) CountSelectCols() int {
+	return len(s.Columns)
+}
+
+func (s *SelectList) SetSelect(columns ...any) {
+	s.Columns = columns
+}
+
+func (s *SelectList) SetPreloadSelect(columns ...any) {
+	s.PreloadColumns = columns
+}
+
+func (s *SelectList) AppendSelect(columns ...any) {
+	s.Columns = append(s.Columns, columns...)
+}
+
+func (s *SelectList) AppendPreloadSelect(columns ...any) {
+	s.PreloadColumns = append(s.PreloadColumns, columns...)
+}
+
+func (s SelectList) WriteSQL(w io.Writer, start int) ([]any, error) {
+	var args []any
+
+	all := append(s.Columns, s.PreloadColumns...)
+	if len(all) > 0 {
+		colArgs, err := pgcraft.ExpressSlice(w, start+len(args), all, "", ", ", "")
+		if err != nil {
+			return nil, err
+		}
+		args = append(args, colArgs...)
+	} else {
+		w.Write([]byte("*"))
+	}
+
+	return args, nil
+}
