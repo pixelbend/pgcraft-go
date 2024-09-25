@@ -1,4 +1,4 @@
-module github.com/driftdev/pgcraft
+module github.com/driftdev/pgcraft-go
 
 go 1.23.1
 

@@ -2,7 +2,6 @@ package clause
 
 import (
 	"fmt"
-	"github.com/driftdev/pgcraft"
 	"io"
 )
 

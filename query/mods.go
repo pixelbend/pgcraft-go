@@ -1,10 +1,10 @@
 package query
 
 import (
-	"github.com/driftdev/pgcraft"
-	"github.com/driftdev/pgcraft/clause"
-	"github.com/driftdev/pgcraft/expr"
-	"github.com/driftdev/pgcraft/mods"
+	"github.com/driftdev/pgcraft-go"
+	"github.com/driftdev/pgcraft-go/clause"
+	"github.com/driftdev/pgcraft-go/expr"
+	"github.com/driftdev/pgcraft-go/mods"
 	"io"
 )
 
