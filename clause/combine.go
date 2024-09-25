@@ -1,12 +1,12 @@
 package clause
 
 import (
-	"errors"
+	"fmt"
 	"github.com/driftdev/pgcraft"
 	"io"
 )
 
-var ErrNoCombinationStrategy = errors.New("combination strategy must be set")
+var ErrNoCombinationStrategy = fmt.Errorf("combination strategy must be set")
 
 const (
 	Union     = "UNION"
