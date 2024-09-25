@@ -1,10 +1,10 @@
 package sm
 
 import (
-	"github.com/driftdev/pgcraft"
-	"github.com/driftdev/pgcraft/clause"
-	"github.com/driftdev/pgcraft/mods"
-	"github.com/driftdev/pgcraft/query"
+	"github.com/driftdev/pgcraft-go"
+	"github.com/driftdev/pgcraft-go/clause"
+	"github.com/driftdev/pgcraft-go/mods"
+	"github.com/driftdev/pgcraft-go/query"
 )
 
 func With(name string, columns ...string) query.CTEChain[*query.Select] {

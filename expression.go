@@ -5,11 +5,6 @@ import (
 	"io"
 )
 
-type Placeholder interface {
-	WriteArg(w io.Writer, position int)
-	WriteQuoted(w io.Writer, string string)
-}
-
 type Expression interface {
 	WriteSQL(w io.Writer, start int) (args []any, err error)
 }

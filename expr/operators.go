@@ -2,7 +2,7 @@ package expr
 
 import (
 	"fmt"
-	"github.com/driftdev/pgcraft"
+	"github.com/driftdev/pgcraft-go"
 	"io"
 )
 

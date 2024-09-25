@@ -1,8 +1,8 @@
 package query
 
 import (
-	"github.com/driftdev/pgcraft"
-	"github.com/driftdev/pgcraft/expr"
+	"github.com/driftdev/pgcraft-go"
+	"github.com/driftdev/pgcraft-go/expr"
 	"strings"
 )
 
