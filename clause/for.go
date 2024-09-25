@@ -1,13 +1,12 @@
 package clause
 
 import (
-	"errors"
 	"fmt"
 	"github.com/driftdev/pgcraft"
 	"io"
 )
 
-var ErrNoLockStrength = errors.New("no lock strength specified")
+var ErrNoLockStrength = fmt.Errorf("no lock strength specified")
 
 const (
 	LockStrengthUpdate      = "UPDATE"

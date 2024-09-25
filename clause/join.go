@@ -7,12 +7,11 @@ import (
 )
 
 const (
-	InnerJoin    = "INNER JOIN"
-	LeftJoin     = "LEFT JOIN"
-	RightJoin    = "RIGHT JOIN"
-	FullJoin     = "FULL JOIN"
-	CrossJoin    = "CROSS JOIN"
-	StraightJoin = "STRAIGHT_JOIN"
+	InnerJoin = "INNER JOIN"
+	LeftJoin  = "LEFT JOIN"
+	RightJoin = "RIGHT JOIN"
+	FullJoin  = "FULL JOIN"
+	CrossJoin = "CROSS JOIN"
 )
 
 type Join struct {
