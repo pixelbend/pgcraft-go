@@ -1,9 +1,8 @@
 package query
 
 import (
-	"github.com/driftdev/pgcraft-go"
-	"github.com/driftdev/pgcraft-go/clause"
-	"github.com/driftdev/pgcraft-go/expr"
+	"github.com/teapartydev/pgcraft-go/clause"
+	"github.com/teapartydev/pgcraft-go/expr"
 	"io"
 )
 

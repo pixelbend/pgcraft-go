@@ -1,8 +1,7 @@
 package psql
 
 import (
-	"github.com/driftdev/pgcraft-go"
-	"github.com/driftdev/pgcraft-go/query"
+	"github.com/teapartydev/pgcraft-go/query"
 )
 
 func Select(mods ...pgcraft.Mod[*query.Select]) pgcraft.BaseQuery[*query.Select] {

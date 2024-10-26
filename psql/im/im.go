@@ -1,12 +1,11 @@
 package im
 
 import (
-	"github.com/driftdev/pgcraft-go"
-	"github.com/driftdev/pgcraft-go/clause"
-	"github.com/driftdev/pgcraft-go/expr"
-	"github.com/driftdev/pgcraft-go/internal"
-	"github.com/driftdev/pgcraft-go/mods"
-	"github.com/driftdev/pgcraft-go/query"
+	"github.com/teapartydev/pgcraft-go/clause"
+	"github.com/teapartydev/pgcraft-go/expr"
+	"github.com/teapartydev/pgcraft-go/internal"
+	"github.com/teapartydev/pgcraft-go/mods"
+	"github.com/teapartydev/pgcraft-go/query"
 )
 
 func With(name string, columns ...string) query.CTEChain[*query.Insert] {

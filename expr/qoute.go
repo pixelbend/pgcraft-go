@@ -1,7 +1,6 @@
 package expr
 
 import (
-	"github.com/driftdev/pgcraft-go"
 	"io"
 )
 

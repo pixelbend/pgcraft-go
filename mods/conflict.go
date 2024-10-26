@@ -1,8 +1,7 @@
 package mods
 
 import (
-	"github.com/driftdev/pgcraft-go"
-	"github.com/driftdev/pgcraft-go/clause"
+	"github.com/teapartydev/pgcraft-go/clause"
 )
 
 type Conflict[Q interface{ SetConflict(clause.Conflict) }] func() clause.Conflict

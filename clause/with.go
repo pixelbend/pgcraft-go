@@ -1,7 +1,6 @@
 package clause
 
 import (
-	"github.com/driftdev/pgcraft-go"
 	"io"
 )
 

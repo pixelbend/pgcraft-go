@@ -1,7 +1,5 @@
 package expr
 
-import "github.com/driftdev/pgcraft-go"
-
 type builder[B any] interface {
 	New(pgcraft.Expression) B
 }
