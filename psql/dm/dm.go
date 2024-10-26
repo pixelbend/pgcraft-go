@@ -1,6 +1,7 @@
 package dm
 
 import (
+	"github.com/teapartydev/pgcraft-go"
 	"github.com/teapartydev/pgcraft-go/clause"
 	"github.com/teapartydev/pgcraft-go/mods"
 	"github.com/teapartydev/pgcraft-go/query"

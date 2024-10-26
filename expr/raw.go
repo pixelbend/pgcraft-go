@@ -3,6 +3,7 @@ package expr
 import (
 	"errors"
 	"fmt"
+	"github.com/teapartydev/pgcraft-go"
 	"io"
 	"strings"
 )

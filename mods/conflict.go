@@ -1,6 +1,7 @@
 package mods
 
 import (
+	"github.com/teapartydev/pgcraft-go"
 	"github.com/teapartydev/pgcraft-go/clause"
 )
 

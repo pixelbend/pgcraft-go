@@ -1,6 +1,7 @@
 package im
 
 import (
+	"github.com/teapartydev/pgcraft-go"
 	"github.com/teapartydev/pgcraft-go/clause"
 	"github.com/teapartydev/pgcraft-go/expr"
 	"github.com/teapartydev/pgcraft-go/internal"

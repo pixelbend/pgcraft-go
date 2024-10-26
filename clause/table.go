@@ -1,6 +1,7 @@
 package clause
 
 import (
+	"github.com/teapartydev/pgcraft-go"
 	"github.com/teapartydev/pgcraft-go/expr"
 	"io"
 )

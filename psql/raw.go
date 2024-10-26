@@ -1,6 +1,7 @@
 package psql
 
 import (
+	"github.com/teapartydev/pgcraft-go"
 	"github.com/teapartydev/pgcraft-go/expr"
 )
 

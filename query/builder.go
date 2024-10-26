@@ -1,6 +1,7 @@
 package query
 
 import (
+	"github.com/teapartydev/pgcraft-go"
 	"github.com/teapartydev/pgcraft-go/expr"
 	"strings"
 )
