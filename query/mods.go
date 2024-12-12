@@ -1,10 +1,10 @@
 package query
 
 import (
-	"github.com/teapartydev/pgcraft-go"
-	"github.com/teapartydev/pgcraft-go/clause"
-	"github.com/teapartydev/pgcraft-go/expr"
-	"github.com/teapartydev/pgcraft-go/mods"
+	"github.com/codefrantic/pgcraft-go"
+	"github.com/codefrantic/pgcraft-go/clause"
+	"github.com/codefrantic/pgcraft-go/expr"
+	"github.com/codefrantic/pgcraft-go/mods"
 	"io"
 )
 

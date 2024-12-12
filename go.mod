@@ -1,4 +1,4 @@
-module github.com/teapartydev/pgcraft-go
+module github.com/codefrantic/pgcraft-go
 
 go 1.23.1
 

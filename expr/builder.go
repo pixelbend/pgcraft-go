@@ -1,6 +1,6 @@
 package expr
 
-import "github.com/teapartydev/pgcraft-go"
+import "github.com/codefrantic/pgcraft-go"
 
 type builder[B any] interface {
 	New(pgcraft.Expression) B

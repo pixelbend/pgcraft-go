@@ -1,8 +1,8 @@
 package psql
 
 import (
-	"github.com/teapartydev/pgcraft-go"
-	"github.com/teapartydev/pgcraft-go/query"
+	"github.com/codefrantic/pgcraft-go"
+	"github.com/codefrantic/pgcraft-go/query"
 )
 
 func Insert(mods ...pgcraft.Mod[*query.Insert]) pgcraft.BaseQuery[*query.Insert] {

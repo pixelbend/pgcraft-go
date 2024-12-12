@@ -1,8 +1,8 @@
 package psql
 
 import (
-	"github.com/teapartydev/pgcraft-go"
-	"github.com/teapartydev/pgcraft-go/expr"
+	"github.com/codefrantic/pgcraft-go"
+	"github.com/codefrantic/pgcraft-go/expr"
 )
 
 func RawQuery(query string, args ...any) pgcraft.BaseQuery[expr.Clause] {

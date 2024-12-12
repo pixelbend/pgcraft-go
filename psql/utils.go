@@ -1,10 +1,10 @@
 package psql
 
 import (
-	"github.com/teapartydev/pgcraft-go"
-	"github.com/teapartydev/pgcraft-go/expr"
-	"github.com/teapartydev/pgcraft-go/mods"
-	"github.com/teapartydev/pgcraft-go/query"
+	"github.com/codefrantic/pgcraft-go"
+	"github.com/codefrantic/pgcraft-go/expr"
+	"github.com/codefrantic/pgcraft-go/mods"
+	"github.com/codefrantic/pgcraft-go/query"
 )
 
 type Expression = query.Expression

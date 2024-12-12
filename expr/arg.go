@@ -1,7 +1,7 @@
 package expr
 
 import (
-	"github.com/teapartydev/pgcraft-go"
+	"github.com/codefrantic/pgcraft-go"
 	"io"
 	"strconv"
 )
