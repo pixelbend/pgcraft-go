@@ -2,7 +2,7 @@ package expr
 
 import (
 	"fmt"
-	"github.com/codefrantic/pgcraft-go"
+	"github.com/pixelbend/pgcraft-go"
 	"io"
 )
 

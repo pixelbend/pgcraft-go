@@ -1,8 +1,8 @@
 package mods
 
 import (
-	"github.com/codefrantic/pgcraft-go"
-	"github.com/codefrantic/pgcraft-go/clause"
+	"github.com/pixelbend/pgcraft-go"
+	"github.com/pixelbend/pgcraft-go/clause"
 )
 
 type Conflict[Q interface{ SetConflict(clause.Conflict) }] func() clause.Conflict
