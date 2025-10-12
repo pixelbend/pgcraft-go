@@ -1,8 +1,8 @@
 package psql
 
 import (
-	"github.com/pixelbend/pgcraft-go"
-	"github.com/pixelbend/pgcraft-go/query"
+	"github.com/arkamfahry/pgcraft-go"
+	"github.com/arkamfahry/pgcraft-go/query"
 )
 
 func Delete(mods ...pgcraft.Mod[*query.Delete]) pgcraft.BaseQuery[*query.Delete] {

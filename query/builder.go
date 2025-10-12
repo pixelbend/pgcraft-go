@@ -1,9 +1,10 @@
 package query
 
 import (
-	"github.com/pixelbend/pgcraft-go"
-	"github.com/pixelbend/pgcraft-go/expr"
 	"strings"
+
+	"github.com/arkamfahry/pgcraft-go"
+	"github.com/arkamfahry/pgcraft-go/expr"
 )
 
 var (

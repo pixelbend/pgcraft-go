@@ -1,4 +1,4 @@
-module github.com/pixelbend/pgcraft-go
+module github.com/arkamfahry/pgcraft-go
 
 go 1.23.1
 
