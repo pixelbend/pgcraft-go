@@ -15,7 +15,7 @@ It simplifies the process of dynamically creating SQL queries while ensuring com
 Use `go get` to include `pgcraft-go` in your project:
 
 ```bash
-go get github.com/pixelbend/pgcraft-go
+go get github.com/arkamfahry/pgcraft-go
 ```
 
 ## Getting Started
@@ -23,7 +23,7 @@ go get github.com/pixelbend/pgcraft-go
 ### Import the Package
 
 ```go
-import "github.com/pixelbend/pgcraft-go"
+import "github.com/arkamfahry/pgcraft-go"
 ```
 
 ### Example: Simple SELECT Query
@@ -35,7 +35,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/pixelbend/pgcraft-go"
+	"github.com/arkamfahry/pgcraft-go"
 )
 
 func main() {
@@ -67,7 +67,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/pixelbend/pgcraft-go"
+	"github.com/arkamfahry/pgcraft-go"
 )
 
 func main() {
@@ -98,7 +98,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/pixelbend/pgcraft-go"
+	"github.com/arkamfahry/pgcraft-go"
 )
 
 func main() {
@@ -129,7 +129,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/pixelbend/pgcraft-go"
+	"github.com/arkamfahry/pgcraft-go"
 )
 
 func main() {
